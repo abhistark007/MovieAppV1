@@ -4,7 +4,7 @@ import HeroBanner from './heroBanner/HeroBanner'
 
 function Home() {
   return (
-    <div>
+    <div className='flex flex-col'>
       <HeroBanner/>
     </div>
   )
