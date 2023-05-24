@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className="flex flex-col bg-[#23272F]">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
@@ -42,7 +42,7 @@ function App() {
           <Route path="*" element={<PageNotFound/>}/>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 
